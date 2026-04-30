@@ -9,8 +9,8 @@ const stats = [
 
 export default function StatsBar() {
   return (
-    <div className="w-full max-w-[1920px] mx-auto bg-white border-b border-gray-200">
-      <div className="flex items-stretch divide-x divide-gray-200" style={{ paddingLeft: "24px" }}>
+    <div className="w-full bg-white border-b border-gray-200">
+      <div className="flex items-stretch divide-x divide-gray-200" style={{ paddingLeft: "24px", paddingRight: "24px" }}>
         {stats.map(({ label, value, icon: Icon, color, customImg }, index) => (
           <button
             key={label}
