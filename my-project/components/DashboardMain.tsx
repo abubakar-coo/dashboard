@@ -21,8 +21,8 @@ export default function DashboardMain() {
               <span className="w-10 flex items-center justify-center text-sm font-medium text-gray-700 h-full">0</span>
             </div>
             <span className="text-sm text-gray-500 whitespace-nowrap">Days of trial left</span>
-            <button className="bg-white border border-blue-600 hover:bg-blue-50 text-blue-600 text-sm font-medium transition-colors whitespace-nowrap" style={{ width: "126px", height: "40px" }}>
-              Extend now
+            <button className="bg-white border border-blue-600 hover:bg-blue-50 text-blue-600 text-sm font-medium transition-colors whitespace-nowrap" style={{ width: "126px", height: "48px" }}>
+              <span style={{ fontFamily: "'PPTelegraf', sans-serif", fontWeight: 700 }}>Extend now</span>
             </button>
           </div>
         </div>

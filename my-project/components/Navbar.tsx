@@ -20,7 +20,8 @@ export default function Navbar() {
               width={148}
               height={48}
               priority
-              className="object-contain"
+              unoptimized
+              quality={100}
             />
           </div>
 
